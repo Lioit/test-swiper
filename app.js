@@ -1,3 +1,18 @@
+// Story 
+
+<?php
+global $post;
+$id = get_the_ID();
+
+
+?>
+<div class="swiper-slide">
+	<a id="<?php echo $id;?>" data-post-id="<?php echo $id;?>" data-story-type="standard" href="javascript:;" class="story standard-story story-view storyclick">
+	 ...
+	</a>
+</div>
+
+
 // Swiper slider init
         var autoplay = 10000;
         var smallSwiperStories = new Swiper('.stories-small-swipe', {
